@@ -11,6 +11,7 @@ import ru.javaops.bootjava.model.User;
 import java.util.Optional;
 
 @Transactional(readOnly = true)
+@Tag(name = "User Controller")
 public interface UserRepository extends JpaRepository<User, Integer> {
 
     @RestResource(rel = "by-email", path = "by-email")

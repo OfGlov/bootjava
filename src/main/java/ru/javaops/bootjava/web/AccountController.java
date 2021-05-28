@@ -1,5 +1,6 @@
 package ru.javaops.bootjava.web;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.rest.webmvc.RepositoryLinksResource;
